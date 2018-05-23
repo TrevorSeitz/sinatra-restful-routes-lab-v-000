@@ -40,7 +40,6 @@ class ApplicationController < Sinatra::Base
     @recipe.save
 
     erb :show
-    # redirect "/recipes/#{@params[:id]}"
   end
 
   post '/recipes' do
