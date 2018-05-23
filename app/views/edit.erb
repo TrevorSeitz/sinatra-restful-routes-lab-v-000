@@ -5,11 +5,11 @@
 <input id="hidden" type="hidden" name="_method" value="patch">
 
 <h3>Recipe Name: </h3><input type="text" name="name" value="<%= @recipe.name %>"><br>
-
+<%= binding.pry %>
 <p>Ingredients: </p><input type="text" name="content" value="<%= @recipe.ingredients %>"><br>
 <p>Cook Time: </p><input type="text" name="content" value="<%= @recipe.cook_time %>"><br>
 
-<%= binding.pry %>
+
 
 <input type="submit" id="submit" value="submit">
 
