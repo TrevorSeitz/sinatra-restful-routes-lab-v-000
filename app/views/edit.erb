@@ -2,7 +2,7 @@
 
 <form action="/recipes/<%= @recipe.id %>" method="POST">
 
-<input id="hidden" type="hidden" name="_method" value="put">
+<input type="hidden" name="_method" value="put">
 
 <h3>Recipe Name: </h3><input type="text" name="name" value="<%= @recipe.name%>"><br>
 
