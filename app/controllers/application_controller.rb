@@ -1,4 +1,6 @@
 class ApplicationController < Sinatra::Base
+  require 'pry'
+
   configure do
     set :public_folder, 'public'
     set :views, 'app/views'
