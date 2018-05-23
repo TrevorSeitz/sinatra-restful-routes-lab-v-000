@@ -37,8 +37,8 @@ class ApplicationController < Sinatra::Base
 
     @recipe.update(params)
 
-    # erb :show
-    redirect "/recipes/#{@params[:id]}"
+    erb :show
+    # redirect "/recipes/#{@params[:id]}"
   end
 
   post '/recipes' do
